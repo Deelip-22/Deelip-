@@ -135,3 +135,88 @@ int main()
         
         //Comments (//,/)
         //Syntax
+//c++Preprocessor:It is a program that processes all the source code before compiler sees the code.
+//THe process includes:
+//-first removes all the comments and replaces it with a space.
+//-Then it looks for the preprocessorr directives and execute them.
+//C++ preprocessor doesnot understands the C++
+//Preprocessor Directives:Preprocessor Directives are lines in socure code beign with #.
+//When compiler sees the socure code all the comments are removed and the preprocess directives are processed.
+
+
+//Comment:We have 2 type of commenting in C++
+//-Single line comment and Multi line comment
+//Single line comment://This is a single line comment
+//Multi line comment:/*.......*/
+/*******************
+ * Dependicies
+ * Tensorflow
+ * Keras
+ * Numpy
+ * Matplotilb
+ * Pandas
+* ***************************/
+//Main():While we learn about function we will dive deep.
+
+
+
+//namespace:Helps in removing name conflicts.
+/*
+*#include<iostream>
+int main()
+{
+    int cout;
+    std::cout<<"Please enter a number";
+    std::cin>>cout;
+    std::cout<<"The number is"<<cout<<std::endl;
+    return 0;
+}
+ 
+/*
+ * #include<iostream>
+ * using std::cout;
+ * using std::cin;
+ * using std::endl;
+   
+ *int main()
+ * {
+ * int num;
+ * cout<<"Please enter a number";
+ * cin>>num;
+ * cout<<"The number is "<<num;
+ * return 0;
+ * }
+ **/
+//Cout and cin
+
+ /*
+ #include<iostream>
+  using namespace std;
+  int main()
+ {
+  //cout<<"HEllo world!!!"<<endl;
+  //cout<<"Hello";
+  //cout<<"World!!!"<<endl;
+  //cout<<"Hello"<<"World!!!"<<endl;
+  //cout<<"Hello"<<"WOrld!!!\n";
+  //cout<<"Hello\nOut\nTHere\n";
+  //}
+**/
+
+
+/*
+int num1;
+int num2;
+double num3;
+//cout<<"Enter num1";
+//cin>>num1;
+//cout<<"Enter num2";
+//cin>>num2;
+//cout<<"You entered"<<num1<<"and"<<num2<<endl;
+cout<<"Enter num1";
+cin>>num1;
+cout<<"Enter the num 3";
+cin>>num3;
+cout<<"You entered"<num1<<"and"<<num3<<endl;
+}
+**/
