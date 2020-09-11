@@ -45,6 +45,11 @@ int main()
       * return 0;(codes ends here so codes below won't run)
       * std::cout<<"Enter anything";
       * }*/
+ITS UPTO DAY ONE
+
+
+
+
       // Compiler warning:
     /*
      * Dont Ignore them.
@@ -135,6 +140,11 @@ int main()
         
         //Comments (//,/)
         //Syntax
+ITS UPTO DAY 2ND
+    
+    
+    
+    
 //c++Preprocessor:It is a program that processes all the source code before compiler sees the code.
 //THe process includes:
 //-first removes all the comments and replaces it with a space.
@@ -220,7 +230,64 @@ cin>>num3;
 cout<<"You entered"<num1<<"and"<<num3<<endl;
 }
 **/
-* Used for represent True and False .(Zero for False,Non Zero for True)
+ITS UPTO DAY 3RD
+    
+    
+    /vairables:Allows programmer to use meaningful names but not the memory address.
+//variables have,Type-(int,string,preson,Account)
+              // Value-(10,3.14,"Hari")
+//"variableType and VariableName"int name="Hari"
+//Variable must be declared
+//Declaring and initializing,int num=10;
+
+//Rules for naming vairable:
+//-Can conatin letters,numbers and underscores.
+//-Must  begin with a letter to underscore(_).
+//-Cannot begin with numbers.
+//-Cannot use C++ reserved keywords.
+//-C+++ is case sensitive.
+//-Cannot redclare a name in the same scope.
+
+//Can:Age,age,_age,My_age,INT
+//Cannot:int,$age,2020_age,my age,return
+ 
+ //Initializing variables:
+ //int age;//uninitilialized varaiable
+ //int age=21;//C like initilization 
+ //int age(21);//Constructor initilization
+ //int age(21);//C++11 intilization
+ 
+ /*
+  #include<iostream>
+   using namespace std;
+   int main()
+     {
+     int width_of_room=0;
+     int heigh_of_room=0;
+     cout<<"Enter the Room width(in Sq.ft):";
+     cin>>width;
+     cout<<"Enter the Room heightin Sq.ft):";
+     cin>>height;
+     cout<<"The are of the room is:"<<width*height<<"Sq.ft."<<endl;
+     return 0;
+     }
+    **/
+//
+  //C++ Primitive data types(funda mental data types)
+  //-Character Types
+  //-Integer type:(Singed and unsigned)
+  //-Floating-point Type
+  //-Boolean Type
+  
+//Character Type:USed to represnt single character(eg:'A','x','@'),char,char16_t etc.
+//Integer Type:USed to resprent whole numbers.int,long,long long,short
+//          Two types:Singed And Unsigned
+//        Unsigned-->(0 or positive value only) nedd to be specify.(unsigned short,unsigned)
+//         Signed--->Need to specify
+// Floating point type-USed to represent non integer numbers.float(7 deci),double(15deci),long double(19deci)
+//Boolean type:used to represent 
+/*
+ * Used for represent True and False .(Zero for False,Non Zero for True)
     */
     
     //Constant
@@ -245,3 +312,4 @@ cout<<"You entered"<num1<<"and"<<num3<<endl;
       * Define Constants
       *         eg:(#define pi 3.1415)
       * */
+    ITS UPTO DAY 4
