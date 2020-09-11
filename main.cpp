@@ -220,3 +220,28 @@ cin>>num3;
 cout<<"You entered"<num1<<"and"<<num3<<endl;
 }
 **/
+* Used for represent True and False .(Zero for False,Non Zero for True)
+    */
+    
+    //Constant
+    /*
+     * Like variables ,also have names,also occupies space.
+     * Which doesnot need to be changed in the program i.e remains same throughtout the program
+     * */
+     // Type of constant:
+     /*
+      * Literal Constant:
+      *     Eg: x=12, y=1.5,name ='Hari'
+      * 
+      * Declared Constant:
+      *      is defined using 'const' keyword (eg: const int month_in_year {12};)
+      * 
+      * Enumerated Constant:
+      *       enum Keyword
+      * 
+      * Constant Expression:
+      *        const expr Keyword
+      * 
+      * Define Constants
+      *         eg:(#define pi 3.1415)
+      * */
