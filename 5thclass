@@ -1,0 +1,55 @@
+//Array:They are the compound data types.
+//Array allows you to tell the compiler to give a collection of as many elements 
+//as you want and give those element to a single name
+//Properties:
+//-Fixed size
+//-Elements are  of same type.
+//-Stored contiguosly in memory.(memory is allocated as one chunk)
+//-Individual element can be accesed by their position or index.
+//-First element is at index 0.
+//-Programmers responsibility to handle "Out of bounds".
+
+//#include<iostream>
+//using namespace std;
+//int main()
+//{
+    //char greet[]={'H','E','L','L','O'};
+    //cout<<"The first letter is "<<greet[0]<<endl;
+//cout<<"The second letter is"<<greet[2]<<endl;
+   //int marks[]={19,14,16,14,15};
+   //cout<<"The second obtained marks is "<<marks[1]<<endl;
+   //marks[1]=18;
+   //cout<<"The updated second obtained marks is"<<marks[1]<<endl;
+   //int marks[5];
+   //cout<<"The first marks is"<< marks[0];
+   //return 0;
+//}
+//1D series,2D Matrix,3D Images
+//Bank
+//Account_number Name Address    Balance   Phone number
+//009976678      HAri Bhaisepati  1000000   37727274
+
+
+//Scenario:
+//We use We use array to keep the data of students.
+ / But the size of the array is fixed,so we have two option to consider.
+ / 1---> Make the array so big that it will fit all records.
+ / 2---> Use dynamic array such as Vector.
+ *//
+ 
+ // Vector:
+ /*
+  * It is a part of C++ Standard Template Library (STL).
+  * Can grow and shrink at execution time.
+  * Provides similar syntax and semantics as arrays.
+  * It is very efficient.
+  * Can provide bounds checking.
+  * Also uses various cool features like sort,reverse,find and many more.
+  */
+  
+  //Declaration and initializations.
+  /*
+   * Can be used after using #include<vector>
+   * Can be defined by vector <int> marks(20)
+   * 
+   * */
